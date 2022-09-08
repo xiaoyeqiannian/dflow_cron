@@ -9,6 +9,10 @@ At present, most of them use Linux scheduling tasks to deploy timed scripts. Whe
 
 ### Codes 
 
+First, modify dflow
+https://github.com/dptech-corp/dflow/pull/96
+
+Application Examples:
 ```python
 from dflow import (
     ShellOPTemplate,
